@@ -1,0 +1,15 @@
+What is Rancher ?
+Rancher Desktop
+Rancher Desktop is an open-source project that brings Kubernetes and container management to the desktop. It runs on Windows, macOS and Linux. This README pertains to the development of Rancher Desktop. For user-oriented information about Rancher Desktop, please see rancherdesktop.io. For user-oriented documentation, please see docs.rancherdesktop.io.
+
+Integration  WLS UBUNTU 
+Install ubuntu 20.04 LTS or high 
+run Racher Desktop 
+Note... 
+You cannot run both Docker Desktop and Rancher together as both run in same dockerd and it also not possible by default and would end in error.
+ for integeration of rancher and Ubuntu steps.
+1.Turn ON Ubuntu and then Racher Desktop 
+2.Navigate to perfences 
+3.WSL > Expose Rancher Desktop's Kubernetes configuration and Docker socket to Windows Subsystem for Linux (WSL) distros Tick on the box showing Ubuntu
+and Click apply. Racher Desktop stop and restart services again.
+4.to Test successful integration 
